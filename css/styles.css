@@ -19,7 +19,6 @@ body {
 }
 .logo:hover,
 .logo:focus {
-	color: #404bbf;
 }
 
 /* навігація по сайту */
@@ -45,7 +44,53 @@ body {
 	color: #404bbf;
 }
 
+/* hero */
+.hero {
+	background-color: #2e2f42;
+	color: #ffffff;
+}
+.hero-button {
+	background-color: #4d5ae5;
+	color: #ffffff;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+	background-color: #404bbf;
+}
+
 /* section */
 .section-titel {
 	color: #2e2f42;
+}
+
+/* portfolio */
+.portfolio-button {
+	background-color: #f4f4fd;
+	color: #4d5ae5;
+}
+
+.portfolio-button:hover,
+.portfolio-button:focus {
+	background-color: #404bbf;
+	color: #ffffff;
+}
+
+/* footer */
+.footer {
+	background-color: #2e2f42;
+	color: #e7e9fc;
+}
+
+.footer-logo {
+	color: #f4f4fd;
+	text-decoration-line: none;
+}
+
+.footer-web {
+	color: #4d5ae5;
+}
+
+.footer-logo:hover,
+.footer-logo:focus {
 }
