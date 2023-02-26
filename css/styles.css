@@ -12,7 +12,7 @@ body {
 	background-color: var(--background-color);
 	color: var(--title-text-color);
 
-	font-family: roboto, Sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.5;
@@ -24,7 +24,7 @@ body {
 	color: var(--primary-text-color);
 	text-decoration-line: none;
 
-	font-family: raleway, Sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-weight: 800;
 	font-size: 18px;
 	line-height: 1.33;
@@ -56,6 +56,10 @@ body {
 	list-style: none;
 }
 
+.address {
+	font-style: normal;
+}
+
 .address-link {
 	color: var(--title-text-color);
 	text-decoration-line: none;
@@ -85,8 +89,6 @@ body {
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.5;
-	display: flex;
-	align-items: center;
 	letter-spacing: 0.04em;
 }
 
@@ -96,6 +98,10 @@ body {
 }
 
 /* section */
+
+.title {
+	display: none;
+}
 
 .feature-title {
 	font-weight: 500;
@@ -114,6 +120,7 @@ body {
 /* what are we doing */
 .section-title {
 	color: var(--primary-text-color);
+	text-transform: capitalize;
 	font-weight: 700;
 	font-size: 36px;
 	line-height: 1.11;
@@ -157,8 +164,8 @@ body {
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.5;
-
 	letter-spacing: 0.04em;
+	font-family: inherit;
 }
 
 .portfolio-button:hover,
@@ -173,6 +180,8 @@ body {
 }
 
 .portfolio-title {
+	color: var(--primary-text-color);
+	text-transform: capitalize;
 	font-weight: 500;
 	font-size: 20px;
 	line-height: 1.2;
@@ -206,5 +215,5 @@ body {
 
 .footer-text {
 	color: var(--button-filter-color);
-	font-family: roboto, sans-serif;
+	font-family: 'Roboto', sans-serif;
 }
